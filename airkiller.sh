@@ -75,7 +75,7 @@ sudo aircrack-ng -w CommonPasswords wpa.cap
 echo ''
 echo "$yellow There you go!"
 echo "$red"
-echo 'Delete besside.log, wpa.cap, wep/cap?: '
+echo 'Delete besside.log, wpa.cap, wep.cap?: '
 read d
 if [[ $d == $yes ]]
 then
